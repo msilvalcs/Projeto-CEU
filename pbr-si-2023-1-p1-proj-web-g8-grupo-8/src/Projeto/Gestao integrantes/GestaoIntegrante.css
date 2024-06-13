@@ -1,0 +1,175 @@
+.quadro {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.integrante {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #224a93;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.nome {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.descricao {
+  margin-bottom: 10px;
+}
+
+.quadro .integrante .foto {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+}
+
+.opcoes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.remover {
+  color: red;
+  cursor: pointer;
+  font-size: medium;
+  border-radius: 10px;
+}
+
+.contato {
+  color: #224a93;
+  cursor: pointer;
+  font-size: medium;
+  border-radius: 10px;
+}
+.Nometela {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  width: auto;
+  margin: auto;
+}
+
+.gestao {
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  margin: auto;
+  width: 450px;
+}
+
+.infoUser {
+  display: flex;
+}
+
+.desfazer {
+  display: none;
+}
+.nomeProjeto {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  border: 3px solid #224a93;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.infoUser .logo img {
+  height: 200px;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.infoUser .foto img {
+  border-radius: 100px;
+  margin: 0;
+}
+
+.quadros-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.quadro-projeto {
+  border: 1px solid #224a93;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-projeto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.nome-projeto {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.local-projeto,
+.turno-projeto {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.btn-mais-opcoes {
+  background-color: #224a93;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.direcao {
+  flex-direction: column;
+  width: 300px;
+}
+
+.nomeProjeto .nome {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.nomeProjeto .local {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.nomeProjeto .logo {
+  display: flex;
+  margin-left: 23%;
+  border-radius: 10px;
+}
+
+.nomeProjeto .nomeAdmin {
+  width: 256px;
+}

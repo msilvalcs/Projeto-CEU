@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>C.E.U.</title>
+  </head>
+
+  <body>
+    <script src="cord-perfil.js"></script>
+<!--Header-->
+<Header>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-md navbar-dark shadow pb-3 mb-4 font-weight-bold text-uppercase" style="background-color: #224A93;" >
+      <a class="navbar-brand h2" href="/src/Tela inicial/Usuario/InicioUsuario.html"> <img src="/Images/icon.svg" width="50"> CEU</a>
+<!--links-->
+<div class="ml-auto">
+            <!-- Button Responsive -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--End Button Responsive -->
+
+      <div class="navbar-nav collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active h2" href="/src/Tela inicial/Cordernador/InicioCord.html">Inicio
+              <span class="sr-only">(página atual)</span> 
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active h2" href="/src/Projeto/Gestao projetos/GestaoProjeto.html">Projetos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active h2" href="/src/Perfil/Edição perfil coordenador/cord-Perfil.html">Perfil            
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active h2" href="/src/Tela inicial/Visitante/InicioVisitante.html">Sair
+            </a>
+          </li>
+      </ul>
+      </div>
+    </div>
+<!-- End links-->
+    </nav> 
+<!-- End Barnav -->
+</Header>
+<!--End Header-->
+
+
+<!--conteudo-->
+
+<section class="row container-fluid py-3 px-3">
+  <!--img profile-->
+  <Div class="col-12 col-md-4 ">
+    <img id="meuFoto" src="https://fakeimg.pl/200x200/"  class="img-thumbnail img-fluid rounded mx-auto d-block">
+
+  </Div>
+  <!--img profile-->
+  <!--info profile-->
+  
+  <form class="col-12 col-md-4">
+    <h1>Perfil</h1>
+    <div class="d-flex flex-column">
+      <div class="row">
+        <h5 class="my-auto">Nome:</h5>
+        <a class="my-auto" id="meuNome"></a>
+      </div>
+
+      <div class="d-flex flex-column">
+        <div class="row">
+          <h5 class="my-auto">Email:</h5>
+          <a class="my-auto" id="meuEmail"></a>
+        </div>
+    </div>
+
+        <div class="d-flex flex-column">
+          <div class="row">
+            <h5 class="my-auto">Telefone:</h5>
+            <a class="my-auto" id="meuTelefone"></a>
+          </div>
+        </div>
+
+        
+        
+      </form>
+    </div>
+    
+  <form class="col-12 col-md-4">
+    <h1 id="meuTipoCadastro"></h1>
+    <div class="d-flex flex-column">
+      <div class="row">
+        <h5 class="my-auto">Cep:</h5>
+        <a class="my-auto" id="meuCep"></a>
+      </div>
+    </div>
+    <div class="d-flex flex-column">
+      <div class="row">
+        <h5 class="my-auto">Endereço:</h5>
+        <a class="my-auto" id="meuEndereco"></a>
+      </div>
+    </div>
+    <div class="d-flex flex-column">
+      <div class="row "> 
+        <h5 class="my-auto">cargo:</h5>     
+        <a class="my-auto" id="meuCargo"></a>
+      </div>
+    </div>
+    <a class="btn btn-primary float-left mt-5" href="/src/Perfil/Edição perfil coordenador/cord-edição de perfil.html" role="button">Editar</a>
+  </form>
+
+  <!--END info profile-->
+</section>
+<article class="container-fluid py-3 px-3">
+  <h1>Biografia</h1>
+  <textarea class="form-control" aria-label="Com textarea" rows="20" id="minhaBiografia"></textarea>
+</article>
+
+
+<!--End conteudo-->
+
+
+
+
+
+
+<!-- footer -->
+<footer class="container-fluid  text-light text-center font-weight-bold fixed-bottom" style="background-color: #224A93;">
+    <div class="row pt-3 pb-3">
+
+      <section class="col-12 col-md-4 d-flex flex-column">
+        <h6>Matheus Marques Oliveira Silva</h6>
+        <h6>lucas Matheus Souza e Silva</h6>
+        <h6>Pedro Henrique Campos Ferreira</h6>
+
+    </section>
+    <section class="col-12 col-md-4">
+      <h1><img src="/Images/icon.svg" width="60">Grupo CEU</h1>
+    </section>
+
+    <section class="col-12 col-md-4 d-flex flex-column ">
+      <h6>Luiz Fernando Viegas de Carvalho</h6>
+      <h6>Pablo Henrique Marques Camargo</h6>
+      <h6>Thiago Augusto Sales Silva</h6>
+
+    </div>
+  </footer>
+<!-- End footer -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

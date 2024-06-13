@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Cadastro</title>
+
+  <link rel="icon" href="/src/assets/Vector (1).svg">
+  <link rel="stylesheet" href="Cadastro.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="header">
+    <div class="leftHeader">
+      <div class="cloudHeader"><a href="/src/Tela inicial/Visitante/InicioVisitante.html"><img
+            src="/src/assets/Vector (1).svg" alt=""></a>
+      </div>
+      <div class="ceu"><a href="/src/Tela inicial/Visitante/InicioVisitante.html">
+          <h1>CEU</h1>
+        </a>
+      </div>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="/src/Tela inicial/Visitante/InicioVisitante.html">INICIO</a></li>
+        <li><a href="/src/Login/Login/Login.html">LOGIN</a></li>
+        <li><a href="/src/Cadastro/Cadastro/Cadastro.html">CADASTRE-SE</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="sign-up-box">
+    <div class="cadastro">
+      <h2>Cadastro</h2>
+      <form class="seletor_cadastro">
+        <div class="user-input1">
+          <select id="tipo-cadastro">
+            <option value="0" selected disabled>Tipo de cadastro</option>
+            <option value="Aluno">Aluno</option>
+            <option value="Coordenador">Coordenador</option>
+          </select>
+        </div>
+        <div class="user-input1">
+          <select id="campus">
+            <option value="0" selected disabled>Campus</option>
+            <option value="Barreiro">Barreiro</option>
+            <option value="Coração Eucarístico">Coração Eucarístico</option>
+            <option value="Praça da Liberdade">Praça da Liberdade</option>
+            <option value="São Gabriel">São Gabriel</option>
+            <option value="Betim">Betim</option>
+            <option value="Contagem">Contagem</option>
+            <option value="Poços de Caldas">Poços de Caldas</option>
+            <option value="Arcos">Arcos</option>
+            <option value="Serro">Serro</option>
+            <option value="10">Guanhães</option>
+            <option value="11">Uberlândia</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    <form class="user-box">
+      <div class="parte1">
+        <div class="user-input">
+          <input type="text" name="Username" required="" id="email" />
+          <label>Insira seu e-mail</label>
+        </div>
+        <div class="user-input">
+          <input type="text" name="fullName" required="" id="fullName" />
+          <label>Nome Completo</label>
+        </div>
+        <div class="user-input">
+          <input type="password" name="Password" required="" id="Password" />
+          <label>Senha</label>
+        </div>
+        <div class="user-input">
+          <input type="password" name="password" required="" id="password" />
+          <label>Confirme a senha</label>
+        </div>
+      </div>
+      <div class="Parte2">
+        <div class="user-input">
+          <input type="text" name="curso" required="" id="curso" />
+          <label>Curso</label>
+        </div>
+        <div class="user-input">
+          <input type="date" id="Data_Selector" id="Data_Selector">
+          <label>Data de nascimento </label>
+        </div>
+      </div>
+    </form>
+    <div class="entrar">
+      <a href="#" onclick="validarCadastro(); return false;">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Cadastrar
+      </a>
+
+    </div>
+  </div>
+  <footer id="footer" class="footer">
+    <div class="lista_um">
+      <h3>• Lucas Matheus Souza e Silva<br><br>
+        • Luiz Fernando Viegas de Carvalho<br><br>
+        • Matheus Marques Oliveira Silva</h3>
+    </div>
+    <div class="center_footer">
+      <h1>GRUPO CEU</h1>
+      <img src="/src/assets/Vector (1).svg" alt="">
+    </div>
+    <div class="lista_dois">
+      <h3>• Pablo Henrique Marques Camargo<br><br>
+        • Pedro Henrique Campos Ferreira<br><br>
+        • Thiago Augusto Sales Silva</h3>
+    </div>
+  </footer>
+  <script src="Cadastro.js"></script>
+</body>
+
+</html>
