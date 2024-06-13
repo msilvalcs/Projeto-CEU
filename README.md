@@ -28,12 +28,11 @@ O nosso projeto tem o intuito de criar uma plataforma que auxilia os universitá
 
 | Etapa         | Atividades |
 |  :----:   | ----------- |
-| ETAPA 1         |[Documentação de Contexto](docs/Documentação%20de%20contexto.md) <br> [Especificação do Projeto](docs/Especificação%20do%20Projeto.md) |
-| ETAPA 2         |[Projeto de Interface](docs/interface.md) <br> [Template Padrão](docs/template.md) |
-| ETAPA 3         |[Programação de Funcionalidades - HTML e CSS](docs/development.md) |
-| ETAPA 4        |[Programação de Funcionalidades - Javascript](docs/development.md) <br> [Testes de Software ](docs/tests.md) |
-
+| ETAPA 1         |[Documentação de Contexto](pbr-si-2023-1-p1-proj-web-g8-grupo-8/docs/Documentação%20de%20contexto.md) <br> [Especificação do Projeto](pbr-si-2023-1-p1-proj-web-g8-grupo-8/docs/Especificação%20do%20Projeto.md) |
+| ETAPA 2         |[Projeto de Interface](pbr-si-2023-1-p1-proj-web-g8-grupo-8/docs/interface.md) <br> [Template Padrão](pbr-si-2023-1-p1-proj-web-g8-grupo-8/docs/template.md) |
+| ETAPA 3         |[Programação de Funcionalidades - HTML e CSS](pbr-si-2023-1-p1-proj-web-g8-grupo-8/docs/development.md) |
+| ETAPA 4        |[Programação de Funcionalidades - Javascript](pbr-si-2023-1-p1-proj-web-g8-grupo-8/docs/development.md) <br> [Testes de Software ](pbr-si-2023-1-p1-proj-web-g8-grupo-8/docs/tests.md) |
 
 # Código
 
-<li><a href="src/Cadastro/Cadastro/Cadastro.html"> Código Fonte</a></li>
+<li><a href="pbr-si-2023-1-p1-proj-web-g8-grupo-8/src/Cadastro/Cadastro/Cadastro.html"> Código Fonte</a></li>
